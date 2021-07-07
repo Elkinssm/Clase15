@@ -39,9 +39,8 @@ header li {
   justify-content: space-between;
   align-items: center;
   height: 62px;
-  padding:0 40px;
+  padding: 0 40px;
   color: #ffff;
-  
 }
 
 .top li {
@@ -274,13 +273,13 @@ footer {
   text-align: left;
 }
 
-.line h4{
-color: #ffff;
-font-size: 20px;
+.line h4 {
+  color: #ffff;
+  font-size: 20px;
 }
 
-.line p{
-  color: #8A8787;
+.line p {
+  color: #8a8787;
   font-size: 15px;
 }
 
@@ -300,4 +299,24 @@ font-size: 20px;
   color: #ffff;
   text-align: center;
   height: 20px;
+}
+
+#menu {
+  display: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+
+
+/*media query*/
+@media screen and (min-width: 0px) and (max-width: 468px) {
+  header {
+    display: none;
+  }
 }
